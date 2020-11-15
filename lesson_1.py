@@ -1,6 +1,5 @@
 #task1
-var = "Переменная"
-count = input ("Введите число ")
+count = input ("Введите количество ")
 print (f"Вы ввели, {count}")
 # task2
 import datetime
