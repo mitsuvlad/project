@@ -7,7 +7,7 @@ time = int(input ("Введите время в секундах "))
 print (datetime.timedelta(seconds=time))
 # task3
 number = int(input ("Введите число "))
-number_sum = (number + int(str(number) + str(number)) + int(str(number) + str(number) + str(number)))
+number_sum = int(number) + int(f"{number}{number}") + int(f"{number}{number}{number}")
 print (number_sum)
 # task4
 n = int(input("Введите положительное целое число "))
@@ -39,4 +39,4 @@ while sum_km < b:
     a *= 1.1
     count_days += 1
     sum_km = sum_km + a
-print (f"Вы достигнете результата на - {count_days:.0f} день")
+print (f"Вы достигнете результата на  {count_days:.0f} день")
