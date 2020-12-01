@@ -1,0 +1,4 @@
+bob 20000
+Marta 15000
+John 50000
+Dilon 1000
